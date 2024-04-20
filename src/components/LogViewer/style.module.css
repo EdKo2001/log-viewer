@@ -1,0 +1,48 @@
+.app {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 100dvh;
+}
+
+.log-view-box {
+  max-width: 50rem;
+  max-height: min(100vh, 50rem);
+  position: relative;
+  color: orange;
+}
+
+.log-view-auto-scroll-btn {
+  height: 30px;
+  width: 30px;
+  position: sticky;
+  z-index: 1;
+  border-radius: 100%;
+  top: 100%;
+  left: 100%;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: red;
+}
+
+.log-view-auto-scroll-btn-active {
+  background-color: green;
+}
+
+.log-view-container {
+  width: min(100vw, 50rem);
+  min-height: min(100vh, 50rem);
+  position: relative;
+  background: #071426;
+  margin-top: -40px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.log-view-line {
+  height: 2rem;
+  line-height: 2rem;
+  position: absolute;
+  white-space: nowrap;
+}
