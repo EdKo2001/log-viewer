@@ -1,4 +1,18 @@
 
+# Task: display a large log data (1gb).
+
+ 1. Log data should be displayed at boot time.
+    
+2. Automatic scrolling to the bottom of logs should be enabled by
+    default, and there should be a small button, when clicked on which
+    switches automatic scrolling.
+  3.  The application should consume no more than 512MB of memory. (Memory
+    usage should not depend on size of log data).
+
+Here is backend: https://github.com/MindesignGCV/test-log-viewer-backend (see readme.md) 
+
+Backend is deployed here: https://test-log-viewer-backend.stg.onepunch.agency (cors allowed for localhost)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
